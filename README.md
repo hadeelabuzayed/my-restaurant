@@ -1,7 +1,7 @@
 
 # Arabian Nights
 
-Welcome to Arabian Nights Restaurant!
+Welcome to **Arabian Nights Restaurant**!
 
 ## **Snapshots**
 
