@@ -1,34 +1,89 @@
 p{
-
-font-family: 'Times New Roman', Times, serif;
+font-family: Roboto Slab;
 
 
 
 }
-html{
-
-background-color: rgb(137, 207, 240);
 
 
+html {
+        background-color: rgb(5, 11, 54);
+
+    }
 
 
-}header {
-    background-color: rgb(27, 82, 95);
-    color: rgb(11, 11, 11);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    align-items: center;
+
+
+
+header {
+    background-color: rgb(20, 28, 89);
+    padding: 25px;
+    display: flex;
     justify-content: space-between;
 }
 
+
+
 * {
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Roboto Slab;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.home_page_header {
+    display: flex;
+    gap: 10px;
+}
 
 
 
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: end;
+
+
+
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+}
+footer {
+    padding: 25pt;
+    background-color: rgb(9, 9, 96);
+    color: rgb(220, 220, 220);
+    bottom: 0px;
+    text-decoration: underline;
+    text-align: end;
+}
+main {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    padding: 10px;
+
+
+
+
+
+}
+.web_page_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
 
 
@@ -49,9 +104,50 @@ header ul {
 header ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(11, 11, 11);
+    color: rgb(255, 255, 253);
 }
 
 a {
-    color: rgb(11, 11, 11);
+    color: rgb(10, 40, 91);
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    gap: 10px;
+    color: rgb(5, 11, 54);
+}
+
+.text_section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.about_text {
+    padding-left: 20px;
+}
+
+.content_divider {
+    background-color: rgb(5, 11, 54);
+    color: rgb(5, 11, 54);
+    height: 4px;
+}
+
+.side_pic {
+    width: 50%;
+    border-radius: 25px;
+    border: 8px solid rgb(5, 11, 54);
+    text-align: right;
+}
+
+.about_content p img {
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 }
