@@ -184,4 +184,4 @@ At Arabian Nights Restaurant, we offer a variety of delicious dishes made with i
 ## **Feedback**
 
 
-Please feel free to contact me at [Hadeel Abuzayed](mailto:hadeelabuzayed01@gmail.com) for any feedback or advice.
+Please feel free to contact us at [Hadeel Abuzayed](mailto:hadeelabuzayed01@gmail.com) for any feedback or advice.
