@@ -1,5 +1,10 @@
+
 p {
     font-family: Roboto Slab;
+
+
+p{
+font-family: Roboto Slab;
 
 
 
@@ -12,9 +17,13 @@ html {
 }
 
 
+html {
+        background-color: rgb(5, 11, 54);
+
+    }
 
 
-
+ main
 header {
     background-color: rgb(20, 28, 89);
     padding: 25px;
@@ -44,6 +53,38 @@ header {
 }
 
 
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: end;
+
+
+
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+}
+footer {
+    padding: 25pt;
+    background-color: rgb(9, 9, 96);
+    color: rgb(220, 220, 220);
+    bottom: 0px;
+    text-decoration: underline;
+    text-align: end;
+}
+main {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    padding: 10px;
+  }
 
 header ul {
     list-style: none;
@@ -83,6 +124,13 @@ main {
 
 }
 
+.web_page_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
 .web_page_header {
     display: flex;
     align-items: center;
@@ -143,9 +191,14 @@ main {
 .side_pic {
     width: 50%;
     border-radius: 25px;
+
     border: 8px solid rgb(214, 215, 222);
     text-align:right;
     float:right;
+
+    border: 8px solid rgb(5, 11, 54);
+    text-align: right;
+
 }
 
 .about_content p img {
@@ -154,4 +207,8 @@ main {
     margin-right: 10px;
     margin-bottom: 10px;
 
+
 }
+
+
+
